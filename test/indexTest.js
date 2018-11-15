@@ -1,23 +1,37 @@
-
-
-describe("index.html", () => {
-  it("includes 'hello'", () => {
-    expect(document.querySelector('body').innerHTML).to.include('hello')
+describe('Move', () => {
+  afterEach(function() {
+    expect.restoreSpies()
   })
 
-  it("includes div", () => {
-    expect(document.querySelector('body').innerHTML, "no empty div element found within body").to.include('<div></div>')
+  describe('moveDodgerLeft()', () => {
+    beforeEach(() => {
+      dodger = document.getElementById('dodger')
+    })
+
+    it('moves the DODGER to the left', () => {
+      const left = positionToInteger(dodger.style.left)
+
+      moveDodgerLeft()
+
+      expect(positionToInteger(dodger.style.left)).toBeLessThan(left)
+    })
   })
 
+  describe('moveDodgerRight', () => {
+    beforeEach(() => {
+      dodger = document.getElementById('dodger')
 
-})
+      window.requestAnimationFrame = cb => {
+        cb()
+      }
+    })
 
+    it('moves the DODGER to the right', () => {
+      const left = positionToInteger(dodger.style.left)
 
-describe("index.js", () => {
-  it("exists", () => {
-    expect(testVar).to.exist
-    expect(testVar).to.deep.equal({}) //without .deep, {} does not equal {}
-    expect(testFunc).to.exist
-    expect(testFunc()).to.equal('hi')
+      moveDodgerRight()
+
+      expect(positionToInteger(dodger.style.left)).toBeGreaterThan(left)
+    })
   })
 })
