@@ -186,13 +186,14 @@ Perhaps there are certain restrictions you'd want to put in place.
 
 ## Lab
 
-Complete the works to get the tests to pass and then "try out" your application. Make
-sure the application works in the browser the way you expect. In professional applications,
-tests can't cover 100% of the use of the application. It's important to realize that
-"passing all the tests" _is not the same_ as "a working application."
+Complete the works to get the tests to pass and then "try out" your
+application. Make sure the application works in the browser the way you expect.
+In professional applications, tests can't cover 100% of the use of the
+application. It's important to realize that "passing all the tests" _is not the
+same_ as "a working application."
 
-Be sure to do a human-level manual "play through" with your dodger to make sure your
-working code _really works_!
+Be sure to do a human-level manual "play through" with your dodger to make sure
+your working code _really works_!
 
 ![Passing the Tests is only part of the job](https://media.giphy.com/media/vvLWidwZNYH5e/200w_d.gif)
 
@@ -203,6 +204,3 @@ language to browsers. JavaScript allows for dynamic page rendering, and user can
 interact with the contents of the page in real time. With knowledge of these
 basic techniques, you'll become comfortable working with more complex
 interactions like those in video games that you may have played or seen before!
-
-
-
