@@ -32,22 +32,4 @@ describe('moveDodgerRight', () => {
 
     expect(newPosition).to.be.above(left)
   })
-
-  describe('moveDodgerRight', () => {
-    beforeEach(() => {
-      dodger = document.getElementById('dodger')
-
-      window.requestAnimationFrame = cb => {
-        cb()
-      }
-    })
-
-    it('moves the DODGER to the right', () => {
-      const left = positionToInteger(dodger.style.left)
-
-      moveDodgerRight()
-
-      expect(positionToInteger(dodger.style.left)).toBeGreaterThan(left)
-    })
-  })
 })
