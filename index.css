@@ -1,0 +1,55 @@
+#dodger {
+  background-color: white;
+  height: 20px;
+  position: absolute;
+  width: 40px;
+}
+
+#game {
+  background-color: #111;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 400px;
+}
+
+#start {
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  text-decoration: none;
+  top: 4rem;
+}
+
+.rock {
+  width: 20px;
+  height: 20px;
+  background: tan;
+  position: absolute;
+}
+
+.rock:before {
+  content: "";
+  border-bottom: 6px solid tan;
+  border-left: 6px solid #111;
+  border-right: 6px solid #111;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.rock:after {
+  content: "";
+  border-left: 6px solid #111;
+  border-right: 6px solid #111;
+  border-top: 6px solid tan;
+  bottom: 0;
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 9px;
+}
