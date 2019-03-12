@@ -102,15 +102,12 @@ document.addEventListener('keydown', function(e) {
 })
 ```
 
-Entering the above in our console, if we now click on the window (where the dodger
-is rendered) press the left arrow key, we should see in our console:
+Entering the above in our console, if we now click on the window (where the
+dodger is rendered) and press the left arrow key, we should see  our console
+log `ArrowLeft` events. You can try it with other keys (`Shift`, `Control`,
+`ArrowRight`, etc.).
 
-![left arrow keydown](https://curriculum-content.s3.amazonaws.com/skills-based-js/left_arrow_keydown.png)
-
-(Don't worry if you only see `37` :) ).
-
-Cool, so we know that we need to look for `37` to trigger a move to the left. Let's start
-moving left then:
+Let's start moving left then:
 
 ``` javascript
 document.addEventListener('keydown', function(e) {
