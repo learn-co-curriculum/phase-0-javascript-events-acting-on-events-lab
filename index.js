@@ -17,13 +17,13 @@ function moveDodgerRight() {
 }
 
 document.addEventListener('keydown', function(e) {
-  if (e.which === "ArrowLeft") {
+  if (e.key === "ArrowLeft") {
     moveDodgerLeft()
   }
 })
 
 document.addEventListener('keydown', function(e) {
-  if (e.which === "ArrowRight") {
+  if (e.key === "ArrowRight") {
     moveDodgerRight()
   }
 })
