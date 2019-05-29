@@ -8,14 +8,14 @@
   },
   "author": "flatironschool",
   "license": "Included in Repo",
-  "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-preset-env": "1.7.0",
-    "chai": "4.1.2",
-    "file-system": "2.2.2",
-    "jsdom": "9.2.1",
-    "mocha": "5.2.0",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "chai": "^4.2.0",
+    "file-system": "^2.2.2",
+    "jsdom": "^9.0",
+    "mocha": "^5.2.0",
     "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "1.0.1"
+    "mocha-multi": "^1.0.1"
   }
 }
