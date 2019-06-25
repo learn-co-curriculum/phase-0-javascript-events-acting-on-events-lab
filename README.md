@@ -8,18 +8,20 @@
 
 ## Introduction
 
-Think back to the first video game you played. (If you've never played a
-video game, try [this one](http://terrycavanaghgames.com/dontlookback/).)
+Think back to the first video game you played.
 
-It was probably mesmerizing to think about how the game worked. It responded to
-your whims through a set of clear and easy-to-use interactions. It pulled you
+Think about the mechanics of that game. By _tilting_ or _pressing_ it responded to
+your whims. It pulled you
 into its story by giving you a window into its world and a way of interacting
-with — shaping, even — that world.
+with — shaping, even — that world. When you performed an ***event***, the
+computer made the world respond: the little plumber from 
+Brooklyn jumped (_Super Mario Franchise_), the undead warrior slashed at an evil foe (_Dark Souls_), or the banana-yellow
+guy ate the power pellet (_Pac-Man_).
 
 _Programming means that you can create such a world for other people._ Sure,
-it'll be a while before you're ready to build something like [Braid][braid] or
-even [Don't Look Back][dontlookback], but we can start with small steps. Let's
-learn how to move things on a page.
+it'll be a while before you're ready to build something like [Braid][braid],
+but we can start with the essential steps. Let's
+learn how to move things on a page in response to an _event_.
 
 ## Practice Moving Elements on the Page
 
