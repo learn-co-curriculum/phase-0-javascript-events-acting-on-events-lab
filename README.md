@@ -18,6 +18,8 @@ computer made the world respond: the little plumber from
 Brooklyn jumped (_Super Mario Franchise_), the undead warrior slashed at an evil foe (_Dark Souls_), or the banana-yellow
 guy ate the power pellet (_Pac-Man_).
 
+![Controlling classic video game characters Mario and Pacman](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-acting-on-events/Image_36_VideoGame.png)
+
 _Programming means that you can create such a world for other people._ Sure,
 it'll be a while before you're ready to build something like [Braid][braid],
 but we can start with the essential steps. Let's
