@@ -21,7 +21,7 @@ guy ate the power pellet (_Pac-Man_).
 ![Controlling classic video game characters Mario and Pacman](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-acting-on-events/Image_36_VideoGame.png)
 
 _Programming means that you can create such a world for other people._ Sure,
-it'll be a while before you're ready to build something like [Braid][braid],
+it'll be a while before you're ready to build something like one of the classic games above,
 but we can start with the essential steps. Let's
 learn how to move things on a page in response to an _event_.
 
@@ -190,6 +190,3 @@ language to browsers. JavaScript allows for dynamic page rendering, and user can
 interact with the contents of the page in real time. With knowledge of these
 basic techniques, you'll become comfortable working with more complex
 interactions like those in video games that you may have played or seen before!
-
-[braid]: http://braid-game.com/
-[dontlookback]: http://terrycavanaghgames.com/dontlookback/
