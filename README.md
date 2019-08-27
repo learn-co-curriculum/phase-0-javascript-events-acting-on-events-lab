@@ -31,7 +31,7 @@ Open up `index.html` in your favorite browser (we'll be using Chrome). Open the
 console, and let's get a hold of what we're calling the "dodger":
 
 ```javascript
-var dodger = document.getElementById("dodger");
+let dodger = document.getElementById("dodger");
 ```
 
 Awesome. Now let's change its color:
@@ -115,8 +115,8 @@ Let's start moving left then:
 ```javascript
 document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
-    var leftNumbers = dodger.style.left.replace("px", "");
-    var left = parseInt(leftNumbers, 10);
+    let leftNumbers = dodger.style.left.replace("px", "");
+    let left = parseInt(leftNumbers, 10);
 
     dodger.style.left = `${left - 1}px`;
   }
@@ -143,15 +143,15 @@ function. First, let's refresh the page and code with a blank slate.
 Then let's grab the dodger again
 
 ```javascript
-var dodger = document.getElementById("dodger");
+let dodger = document.getElementById("dodger");
 ```
 
 and work on that function:
 
 ```javascript
 function moveDodgerLeft() {
-  var leftNumbers = dodger.style.left.replace("px", "");
-  var left = parseInt(leftNumbers, 10);
+  let leftNumbers = dodger.style.left.replace("px", "");
+  let left = parseInt(leftNumbers, 10);
 
   if (left > 0) {
     dodger.style.left = `${left - 1}px`;
