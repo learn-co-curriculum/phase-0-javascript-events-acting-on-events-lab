@@ -49,7 +49,7 @@ Let's change it to something more visible.
 dodger.style.backgroundColor = "#FF69B4";
 ```
 
-Awesome.
+Awesome!
 
 ![pink dodger](https://curriculum-content.s3.amazonaws.com/skills-based-js/pink_dodger.png)
 
