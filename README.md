@@ -194,7 +194,7 @@ tests can't cover 100% of the use of the application. It's important to realize 
 Be sure to do a human-level manual "play through" with your dodger to make sure your
 working code _really works_!
 
-![Passing the Tests is only part of the job](https://media.giphy.com/media/vvLWidwZNYH5e/source.gif)
+![Passing the Tests is only part of the job](https://media.giphy.com/media/vvLWidwZNYH5e/200w_d.gif)
 
 ## Conclusion
 
