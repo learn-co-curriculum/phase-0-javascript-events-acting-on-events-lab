@@ -14,7 +14,7 @@ Think about the mechanics of that game. By _tilting_ or _pressing_ it responded 
 your whims. It pulled you
 into its story by giving you a window into its world and a way of interacting
 with — shaping, even — that world. When you performed an ***event***, the
-computer made the world respond: the little plumber from 
+computer made the world respond: the little plumber from
 Brooklyn jumped (_Super Mario Franchise_), the undead warrior slashed at an evil foe (_Dark Souls_), or the banana-yellow
 guy ate the power pellet (_Pac-Man_).
 
@@ -63,8 +63,8 @@ To start, let's read out the element's coordinates — we'll read these as if th
 bottom left of the black box were at coordinate (0, 0).
 
 ```javascript
-dodger.style.left; // "180px"
-dodger.style.bottom; // "0px"
+console.log(dodger.style.left); // "180px"
+console.log(dodger.style.bottom); // "0px"
 ```
 
 So the dodger's bottom left edge is currently at (180, 0). (Keep in mind that
@@ -126,7 +126,7 @@ document.addEventListener("keydown", function(e) {
 So what are we doing here? Well, if we catch a left arrow keydown, we move the
 dodger 1 pixel to the left. (We have to parse the pixels as integers and then
 convert them back to the pixel string.) Otherwise (if it's not a left arrow
-keydown), we do zilch.
+keydown), we do zilch. Try it out in the browser yourself!! (Be sure to refresh the page first)
 
 But you'll notice that, even though we're currently going one pixel at a time,
 eventually our dodger will zoom (well, relatively speaking) right out of view.
@@ -179,10 +179,10 @@ We have not yet implemented moving the dodger to the right. Can you do it? With
 the code implemented from the code along, think about what needs to change to
 make a `moveDodgerRight()` function. We'll need another `e.key` in the event
 listener, and instead of moving the dodger `${left - 1}px`, we'll be moving it
-`${left + 1}px`. 
+`${left + 1}px`.
 
-Challenge: How can you prevent the dodger from escaping off the right-hand side? 
-Perhaps there are certain restrictions you'd want to put in place. 
+Challenge: How can you prevent the dodger from escaping off the right-hand side?
+Perhaps there are certain restrictions you'd want to put in place.
 
 ## Lab
 
@@ -203,6 +203,3 @@ language to browsers. JavaScript allows for dynamic page rendering, and user can
 interact with the contents of the page in real time. With knowledge of these
 basic techniques, you'll become comfortable working with more complex
 interactions like those in video games that you may have played or seen before!
-
-
-
