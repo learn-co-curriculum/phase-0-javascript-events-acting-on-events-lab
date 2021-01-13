@@ -186,7 +186,7 @@ Perhaps there are certain restrictions you'd want to put in place.
 
 ## Lab
 
-Complete the works to get the tests to pass and then "try out" your application. Make
+Complete the work to get the tests to pass and then "try out" your application. Make
 sure the application works in the browser the way you expect. In professional applications,
 tests can't cover 100% of the use of the application. It's important to realize that
 "passing all the tests" _is not the same_ as "a working application."
