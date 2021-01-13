@@ -95,8 +95,8 @@ That's better!
 Remember event listeners? Turns out, we can use those to respond to an event and
 move the dodger.
 
-Let's say we want to move the dodger to the left. First we have to figure what
-the left arrow key's numeric value is. We could look it up, but we're
+Let's say we want to move the dodger to the left. First we have to figure out what
+code is used to identify the left arrow key. We could look it up, but we're
 programmers — let's explore!
 
 ```javascript
@@ -198,8 +198,8 @@ working code _really works_!
 
 ## Conclusion
 
-Events and event handling is vital to web programming with the addition of the
-language to browsers. JavaScript allows for dynamic page rendering, and user can
-interact with the contents of the page in real time. With knowledge of these
-basic techniques, you'll become comfortable working with more complex
-interactions like those in video games that you may have played or seen before!
+Events and event handling are vital to web programming. JavaScript allows for
+dynamic page rendering, and users can interact with the contents of the page in
+real time. With knowledge of these basic techniques, you'll become comfortable
+working with more complex interactions like those in video games that you may
+have played or seen before!
