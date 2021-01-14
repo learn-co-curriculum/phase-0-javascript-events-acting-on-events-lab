@@ -160,13 +160,13 @@ dodger are rendered). Now, if you press the left arrow key, you should see a
 properties listed; the one we're interested in is the `key` property. Try
 pressing some other keys as well and check out their `key` properties.
 
-![Keyboard Event]()
+![Keyboard Event](https://curriculum-content.s3.amazonaws.com/phase-0/acting-on-events-lab/keyboard-event.png)
 
 **Top Tip:** You can explore other event types as well: just change the name of
 the event in the code above.
 
 Now that we know the code the event uses to identify the left arrow key, we can
-write the JavaScript code to move the dodger left when it's pressed:
+write the JavaScript code to move the dodger left when the key is pressed:
 
 ```javascript
 document.addEventListener("keydown", function(event) {
@@ -179,15 +179,16 @@ document.addEventListener("keydown", function(event) {
 });
 ```
 
-So what are we doing here? Well, if our event listener detects a `keydown`
+So what are we doing here? Well, when our event listener detects a `keydown`
 event, we first check to see whether the `key` property of the event object has
 the value "ArrowLeft." If it does, we get the current value of the dodger's
 `style.left` property and use the [String `replace()` method][replace] to strip
 out the "px", then store the result in `leftNumbers`.  Next, we parse
 `leftNumbers` as an integer and store that result in `left`. Finally, we update
 the dodger's `style.left` property using string interpolation, injecting the
-current value minus 1. If the key that's pressed is _not_ the left arrow, we do
-zilch. Try it out in the browser yourself!! (Be sure to refresh the page first.)
+current value minus 1. If the key that's pressed is _not_ the left arrow key, we
+do zilch. Try it out in the browser yourself!! (Be sure to refresh the page
+first.)
 
 We do still have a problem, though. Even though we're only going one pixel at a
 time, eventually our dodger will zoom (well, relatively speaking) right out of
@@ -223,7 +224,7 @@ function moveDodgerLeft() {
 }
 ```
 
-We're doing essentially the same things, but we first ensure that the dodger's
+We're doing essentially the same thing, but we first ensure that the dodger's
 left edge has not reached the left edge of its container.
 
 Now let's wire this up to our event listener:
@@ -260,8 +261,8 @@ first time and the value of `style.left` is changed, any subsequent changes to
 
 Finally, implement the code needed to prevent the dodger from escaping off the
 right-hand side. How can we check whether the _right_ edge of the dodger has
-reached the _right_ edge of the game field? (You'll need to keep in mind that
-the dodger is 40px wide.)
+reached the _right_ edge of the game field? (Keep in mind that the dodger is
+40px wide.)
 
 Once you've completed the work to get the tests to pass, the last step is to
 "try out" your application. Make sure it works the way you expect in the
@@ -277,10 +278,10 @@ your working code _really works_!
 ## Conclusion
 
 Events and event handling are vital to web programming. JavaScript allows for
-dynamic page rendering, and users can interact with the contents of the page in
+dynamic page rendering, so users can interact with the contents of the page in
 real time. Knowledge of the basic techniques we've learned so far sets you on
-the road toward having the ability to create complex interactions like those in
-video games you may have played before!
+the road toward being able to create complex interactions like those in video
+games you may have played before!
 
 [so]: https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions
 [replace]: https://www.w3schools.com/jsref/jsref_replace.asp
