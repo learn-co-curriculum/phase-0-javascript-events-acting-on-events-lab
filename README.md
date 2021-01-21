@@ -148,7 +148,7 @@ variable names, the name JavaScript programmers use for this parameter is
 usually either `event` or `e`. You will see these in a lot of JavaScript code,
 and we recommend you use them as well.
 
-This pattern, when you first enccounter it, is tricky to wrap your head around.
+This pattern, when you first encounter it, is tricky to wrap your head around.
 Don't worry if it doesn't make total sense yet &mdash; it will become clearer as
 you continue through the curriculum. You might also want to read the excellent
 accepted answer in [this Stack Overflow thread][so].
@@ -274,6 +274,22 @@ Be sure to do a human-level manual "play through" with your dodger to make sure
 your working code _really works_!
 
 ![Passing the Tests is only part of the job](https://media.giphy.com/media/vvLWidwZNYH5e/200w_d.gif)
+
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignmnent is only on your local
+machine. To preserve your solution on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use
+the following commands to do this:
+
+```sh
+git add .
+git commit -m "Completed assignment"
+git push
+```
+
+If you visit your fork on GitHub, you should now see that _you've_ made the most
+recent commit, and your code will be present in the files.
 
 ## Conclusion
 
