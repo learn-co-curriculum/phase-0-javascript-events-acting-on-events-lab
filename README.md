@@ -12,8 +12,8 @@ Think back to the first video game you played.
 
 Think about the mechanics of that game. When you _tilted_ a joystick or
 _pressed_ a button it responded to your whims. It pulled you into its story by
-giving you a window into its world and a way of interacting with &mdash;
-shaping, even &mdash; that world. When you performed an ***event***, the
+giving you a window into its world and a way of interacting with —
+shaping, even — that world. When you performed an ***event***, the
 computer made the world respond: the little plumber from Brooklyn jumped (_Super
 Mario Franchise_), the undead warrior slashed at an evil foe (_Dark Souls_), or
 the banana-yellow guy ate the power pellet (_Pac-Man_).
@@ -124,7 +124,7 @@ Let's say we want the user to be able to move the dodger to the left using the
 left arrow key. We learned in an earlier lesson that, when a key is pressed, the
 `keydown` event provides a code to indicate which key it was. So the first thing
 we have to do is figure out what code is used to identify the left arrow key. We
-could look it up, but we're programmers &mdash; let's explore!
+could look it up, but we're programmers — let's explore!
 
 So what do we mean when we say that an event provides a code? Any time an event
 listener is in place and the event it's listening for is triggered, a JavaScript
@@ -149,7 +149,7 @@ usually either `event` or `e`. You will see these in a lot of JavaScript code,
 and we recommend you use them as well.
 
 This pattern, when you first encounter it, is tricky to wrap your head around.
-Don't worry if it doesn't make total sense yet &mdash; it will become clearer as
+Don't worry if it doesn't make total sense yet — it will become clearer as
 you continue through the curriculum. You might also want to read the excellent
 accepted answer in [this Stack Overflow thread][so].
 
