@@ -12,11 +12,11 @@ Think back to the first video game you played.
 
 Think about the mechanics of that game. When you _tilted_ a joystick or
 _pressed_ a button it responded to your whims. It pulled you into its story by
-giving you a window into its world and a way of interacting with —
-shaping, even — that world. When you performed an ***event***, the
-computer made the world respond: the little plumber from Brooklyn jumped (_Super
-Mario Franchise_), the undead warrior slashed at an evil foe (_Dark Souls_), or
-the banana-yellow guy ate the power pellet (_Pac-Man_).
+giving you a window into its world and a way of interacting with — shaping, even
+— that world. When you performed an **_event_**, the computer made the world
+respond: the little plumber from Brooklyn jumped (_Super Mario Franchise_), the
+undead warrior slashed at an evil foe (_Dark Souls_), or the banana-yellow guy
+ate the power pellet (_Pac-Man_).
 
 ![Controlling classic video game characters Mario and Pacman](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-acting-on-events/Image_36_VideoGame.png)
 
@@ -134,7 +134,7 @@ the information it contains by defining a parameter for the callback. It looks
 like this:
 
 ```javascript
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
   console.log(event);
 });
 ```
@@ -169,7 +169,7 @@ Now that we know the code the event uses to identify the left arrow key, we can
 write the JavaScript code to move the dodger left when the key is pressed:
 
 ```javascript
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
   if (event.key === "ArrowLeft") {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
@@ -183,7 +183,7 @@ So what are we doing here? Well, when our event listener detects a `keydown`
 event, we first check to see whether the `key` property of the event object has
 the value "ArrowLeft." If it does, we get the current value of the dodger's
 `style.left` property and use the [String `replace()` method][replace] to strip
-out the "px", then store the result in `leftNumbers`.  Next, we parse
+out the "px", then store the result in `leftNumbers`. Next, we parse
 `leftNumbers` as an integer and store that result in `left`. Finally, we update
 the dodger's `style.left` property using string interpolation, injecting the
 current value minus 1. If the key that's pressed is _not_ the left arrow key, we
@@ -230,7 +230,7 @@ left edge has not reached the left edge of its container.
 Now let's wire this up to our event listener:
 
 ```javascript
-document.addEventListener("keydown", function(e) {
+document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
   }
@@ -282,10 +282,10 @@ machine. To preserve your solution on your GitHub fork, you will need to stage t
 changes you've made, commit them, and push the commit up to GitHub. Use
 the following commands to do this:
 
-```sh
-git add .
-git commit -m "Completed assignment"
-git push
+```console
+$ git add .
+$ git commit -m "Completed assignment"
+$ git push
 ```
 
 If you visit your fork on GitHub, you should now see that _you've_ made the most
