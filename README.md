@@ -27,8 +27,7 @@ how to move an element on a page in response to an _event_.
 
 If you haven't already, fork and clone this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
-in Visual Studio Code. Finally, run `npm install` to install the lab's
-dependencies.
+in Visual Studio Code.
 
 Go ahead and run the tests. You'll see that you need to create two functions to
 get the tests passing: `moveDodgerLeft()` and `moveDodgerRight()`. We'll write
@@ -274,22 +273,6 @@ Be sure to do a human-level manual "play through" with your dodger to make sure
 your working code _really works_!
 
 ![Passing the Tests is only part of the job](https://media.giphy.com/media/vvLWidwZNYH5e/200w_d.gif)
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve your solution on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your code will be present in the files.
 
 ## Conclusion
 
