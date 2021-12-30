@@ -16,7 +16,7 @@ describe('moveDodgerLeft()', () => {
   })
 })
 
-describe('moveDodgerRight', () => {
+describe('moveDodgerRight()', () => {
   beforeEach(() => {
     dodger = document.getElementById('dodger')
   })
