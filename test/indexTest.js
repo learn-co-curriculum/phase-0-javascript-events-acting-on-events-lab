@@ -1,3 +1,5 @@
+require ( './helpers.js' );
+
 describe('moveDodgerLeft()', () => {
   beforeEach(() => {
     dodger = document.getElementById('dodger')
