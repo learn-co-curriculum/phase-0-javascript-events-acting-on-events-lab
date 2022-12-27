@@ -25,7 +25,7 @@ it'll be a while before you're ready to build something like one of the classic
 games above, but we can start with the essential steps. In this lab we'll learn
 how to move an element on a page in response to an _event_.
 
-If you haven't already, fork and clone this lab into your local environment.
+If you haven't already, **fork and clone** this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
 in Visual Studio Code.
 
@@ -263,11 +263,12 @@ right-hand side. How can we check whether the _right_ edge of the dodger has
 reached the _right_ edge of the game field? (Keep in mind that the dodger is
 40px wide.)
 
-Once you've completed the work to get the tests to pass, the last step is to
-"try out" your application. Make sure it works the way you expect in the
-browser. In professional applications, tests can't cover 100% of the use of the
-application. It's important to realize that "passing all the tests" _is not the
-same_ as "building a working application."
+Once you've completed the work to get the tests to pass (and submitted your
+work using CodeGrade), the last step is to "try out" your application. Make
+sure it works the way you expect in the browser. In professional applications,
+tests can't cover 100% of the use of the application. It's important to
+realize that "passing all the tests" _is not the same_ as "building a working
+application."
 
 Be sure to do a human-level manual "play through" with your dodger to make sure
 your working code _really works_!
